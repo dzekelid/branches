@@ -13,9 +13,9 @@ tags:
 - SDK
 - Orchestration
 - Amazon Web Services
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/branches/master/_listings/aws-codecommit/apis.yaml
+created: "2018-03-27"
+modified: "2018-03-27"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/aws-codecommit/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: AWS CodeCommit API
@@ -27,7 +27,7 @@ apis:
   tags: Branches
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/branches/master/_listings/aws-codecommit/action-updatedefaultbranch-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/aws-codecommit/action-getbranch-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/codecommit/index.html
