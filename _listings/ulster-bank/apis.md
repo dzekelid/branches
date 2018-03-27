@@ -14,9 +14,9 @@ x-alexaRank: ""
 tags:
 - UK Banks
 - ATMs
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/branches/master/_listings/ulster-bank/apis.yaml
+created: "2018-03-27"
+modified: "2018-03-27"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/ulster-bank/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Ulster Bank
@@ -28,7 +28,7 @@ apis:
   tags: Branches
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/branches/master/_listings/ulster-bank/branches-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/ulster-bank/branches-get.md
 x-common:
 - type: x-twitter
   url: https://twitter.com/ulsterbank_help
