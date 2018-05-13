@@ -25,7 +25,27 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/first-trust-bank/branches-get.md
+- name: First Trust Bank (Open Banking) Get Branches
+  description: This endpoint can contain multiple brands owned by a particular banking
+    group. Each brand can own multiple branches.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mdy_8774354__firsttrustbank.jpg
+  humanURL: https://firsttrustbank.co.uk/
+  baseURL: https://openapi.firsttrustbank.co.uk/open-banking/v2.1/
+  tags: Branches
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/first-trust-bank/branches-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/first-trust-bank/branches-get-postman.md
 x-common:
+- type: x-developer
+  url: http://openbankingapis.io/united-kingdom/first-trust-bank
+- type: x-documentation
+  url: https://openbanking.atlassian.net/wiki/spaces/DZ/pages/54919225/Open+Data+API+Dashboard#
+- type: x-twitter
+  url: https://twitter.com/firsttrustbank
+- type: x-website
+  url: https://firsttrustbank.co.uk/
 - type: x-developer
   url: http://openbankingapis.io/united-kingdom/first-trust-bank
 - type: x-documentation
