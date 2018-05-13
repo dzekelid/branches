@@ -27,7 +27,29 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/santander-bank/branches-get.md
+- name: Santander Bank Get Branches
+  description: This endpoint can contain multiple brands owned by a particular banking
+    group. Each brand can own multiple branches.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28128-www-santanderbank-com.jpg
+  humanURL: https://www.santanderbank.com
+  baseURL: https://openapi.santander.co.uk/open-banking/v2.1/
+  tags: Branches
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/santander-bank/branches-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/santander-bank/branches-get-postman.md
 x-common:
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/santander-bank-2
+- type: x-developer
+  url: http://openbankingapis.io/uk/santander
+- type: x-documentation
+  url: https://openbanking.atlassian.net/wiki/spaces/DZ/pages/54919225/Open+Data+API+Dashboard#
+- type: x-twitter
+  url: https://twitter.com/santanderbankUS
+- type: x-website
+  url: https://www.santanderbank.com
 - type: x-crunchbase
   url: https://crunchbase.com/organization/santander-bank-2
 - type: x-developer
