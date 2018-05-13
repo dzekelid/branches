@@ -28,16 +28,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/aws-codecommit/action-updatedefaultbranch-get.md
-- name: AWS CodeCommit API Get Branch
-  description: Returns information about a repository branch, including its name and
-    the last commit ID.
+- name: AWS CodeCommit API List Branches
+  description: Gets information about one or more branches in a repository.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodeCommit.png
   humanURL: https://aws.amazon.com/codecommit/
   baseURL: http:://{host}//
   tags: Branches
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/aws-codecommit/action-getbranch-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/aws-codecommit/action-listbranches-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/codecommit/index.html
