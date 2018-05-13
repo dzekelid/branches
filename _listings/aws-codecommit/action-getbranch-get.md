@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CodeCommit API
+  title: AWS CodeCommit API Get Branch
   version: 1.0.0
+  description: Returns information about a repository branch, including its name and
+    the last commit ID.
 schemes:
 - http
 produces:
