@@ -28,7 +28,23 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/nationwide-building-society/branches-get.md
+- name: Nationwide Building Society Get Branches
+  description: This endpoint can contain multiple brands owned by a particular banking
+    group. Each brand can own multiple branches.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/nationwide-building-society.png
+  humanURL: https://www.nationwide.co.uk/
+  baseURL: https://openapi.nationwide.co.uk/open-banking/v2.1/
+  tags: Branches
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/nationwide-building-society/branches-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/nationwide-building-society/branches-get-postman.md
 x-common:
+- type: x-developer
+  url: http://openbankingapis.io/uk/nationwide-building-society
+- type: x-website
+  url: https://www.nationwide.co.uk/
 - type: x-developer
   url: http://openbankingapis.io/uk/nationwide-building-society
 - type: x-website
