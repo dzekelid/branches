@@ -25,7 +25,25 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/halifax-bank/branches-get.md
+- name: Halifax Bank Get Branches
+  description: This endpoint can contain multiple brands owned by a particular banking
+    group. Each brand can own multiple branches.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Halifax_Logo.png
+  humanURL: https://www.halifax.co.uk/
+  baseURL: https://api.halifax.co.uk/open-banking/v2.1/
+  tags: Branches
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/halifax-bank/branches-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/halifax-bank/branches-get-postman.md
 x-common:
+- type: x-developer
+  url: http://openbankingapis.io/uk/halifax
+- type: x-documentation
+  url: https://openbanking.atlassian.net/wiki/spaces/DZ/pages/54919225/Open+Data+API+Dashboard#
+- type: x-website
+  url: https://www.halifax.co.uk/
 - type: x-developer
   url: http://openbankingapis.io/uk/halifax
 - type: x-documentation
