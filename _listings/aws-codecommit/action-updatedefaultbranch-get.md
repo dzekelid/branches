@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CodeCommit API
+  title: AWS CodeCommit API Update Default Branch
   version: 1.0.0
+  description: Sets or changes the default branch name for the specified repository.
 schemes:
 - http
 produces:
