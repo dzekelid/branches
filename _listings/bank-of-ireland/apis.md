@@ -1,5 +1,6 @@
 ---
 name: Bank of Ireland
+x-slug: bank-of-ireland
 description: Bank of Ireland Group plc is a public limited company incorporated in
   Ireland, with its registered office at 40 Mespil Road, Dublin 4 and registered number
   593672. Bank of Ireland Group plc, whose shares are listed on the main markets of
@@ -8,47 +9,40 @@ description: Bank of Ireland Group plc is a public limited company incorporated 
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bank-of-ireland.jpg
 x-kinRank: "8"
 x-alexaRank: ""
-tags:
-- UK Banks
-- UK Bank
-- ATMs
-created: "2018-03-27"
-modified: "2018-03-27"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/bank-of-ireland/apis.yaml
+tags: Branches
+created: "2018-05-20"
+modified: "2018-05-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/bank-of-ireland/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Bank of Ireland
-  description: Bank of Ireland Group plc is a public limited company incorporated
-    in Ireland, with its registered office at 40 Mespil Road, Dublin 4 and registered
-    number 593672
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bank-of-ireland.jpg
-  humanURL: ""
-  baseURL: https://openapi.bankofireland.com/open-banking/v2.1/
-  tags: Branches
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/bank-of-ireland/branches-get.md
 - name: Bank of Ireland Get Branches
+  x-api-slug: bank-of-ireland
   description: This endpoint can contain multiple brands owned by a particular banking
     group. Each brand can own multiple branches.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bank-of-ireland.jpg
+  humanURL: https://www.bankofireland.com/
+  baseURL: https://openapi.bankofireland.com/open-banking/v2.1//branches/
+  tags: Branches
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/bank-of-ireland/branches-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/bank-of-ireland/branches-get-openapi.md
+- name: Bank of Ireland
+  x-api-slug: bank-of-ireland
+  description: Bank of Ireland Group plc is a public limited company incorporated
+    in Ireland, with its registered office at 40 Mespil Road, Dublin 4 and registered
+    number 593672. Bank of Ireland Group plc, whose shares are listed on the main
+    markets of the Irish Stock Exchange plc and the London Stock Exchange plc , is
+    the holding company of Bank of Ireland.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bank-of-ireland.jpg
   humanURL: https://www.bankofireland.com/
   baseURL: https://openapi.bankofireland.com/open-banking/v2.1/
   tags: Branches
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/bank-of-ireland/branches-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/bank-of-ireland/branches-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/bank-of-ireland/openapi.md
 x-common:
-- type: x-developer
-  url: http://openbankingapis.io/ireland/bank-of-ireland
-- type: x-documentation
-  url: https://openbanking.atlassian.net/wiki/spaces/DZ/pages/54919225/Open+Data+API+Dashboard#
-- type: x-twitter
-  url: https://twitter.com/talktoBOI
-- type: x-website
-  url: https://www.bankofireland.com/
 - type: x-developer
   url: http://openbankingapis.io/ireland/bank-of-ireland
 - type: x-documentation

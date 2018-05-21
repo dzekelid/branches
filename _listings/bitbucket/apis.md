@@ -1,57 +1,79 @@
 ---
 name: Bitbucket
+x-slug: bitbucket
 description: Code against the Bitbucket API to automate simple tasks, embed Bitbucket
   data into your own site, build mobile or desktop apps, or even add custom UI add-ons
   into Bitbucket itself using the Connect framework.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
 x-kinRank: "8"
 x-alexaRank: ""
-tags:
-- Stack Network
-- Imports
-- Developers
-created: "2018-03-27"
-modified: "2018-03-27"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/bitbucket/apis.yaml
+tags: Branches
+created: "2018-05-20"
+modified: "2018-05-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/bitbucket/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Bitbucket Get Repositories Username Repo Slug Refs Branches
+  x-api-slug: bitbucket
+  description: Get repositories username repo slug refs branches
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
+  humanURL: https://bitbucket.org/
+  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/refs/branches
+  tags: Repositories, Username, Repo, Slug, Refs, Branches
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/bitbucket/repositoriesusernamerepo-slugrefsbranches-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/bitbucket/repositoriesusernamerepo-slugrefsbranches-get-openapi.md
+- name: Bitbucket Parameters Repositories Username Repo Slug Refs Branches
+  x-api-slug: bitbucket
+  description: Parameters repositories username repo slug refs branches
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
+  humanURL: https://bitbucket.org/
+  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/refs/branches
+  tags: Repositories, Username, Repo, Slug, Refs, Branches
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/bitbucket/repositoriesusernamerepo-slugrefsbranches-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/bitbucket/repositoriesusernamerepo-slugrefsbranches-parameters-openapi.md
+- name: Bitbucket Get Repositories Username Repo Slug Refs Branches Name
+  x-api-slug: bitbucket
+  description: Get repositories username repo slug refs branches name
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
+  humanURL: https://bitbucket.org/
+  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/refs/branches/{name}
+  tags: Repositories, Username, Repo, Slug, Refs, Branches, Name
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/bitbucket/repositoriesusernamerepo-slugrefsbranchesname-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/bitbucket/repositoriesusernamerepo-slugrefsbranchesname-get-openapi.md
+- name: Bitbucket Parameters Repositories Username Repo Slug Refs Branches Name
+  x-api-slug: bitbucket
+  description: Parameters repositories username repo slug refs branches name
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
+  humanURL: https://bitbucket.org/
+  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/refs/branches/{name}
+  tags: Repositories, Username, Repo, Slug, Refs, Branches, Name
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/bitbucket/repositoriesusernamerepo-slugrefsbranchesname-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/bitbucket/repositoriesusernamerepo-slugrefsbranchesname-parameters-openapi.md
 - name: Bitbucket
+  x-api-slug: bitbucket
   description: Code against the Bitbucket API to automate simple tasks, embed Bitbucket
     data into your own site, build mobile or desktop apps, or even add custom UI add-ons
-    into Bitbucket itself using the Connect framework
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: ""
-  baseURL: https://api.bitbucket.org//2.0
-  tags: Branches
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/bitbucket/repositories-username-repo-slug-refs-branches-name-parameters.md
-- name: Bitbucket Parameters Repositories Username Repo Slug Refs Branches Name
-  description: Parameters repositories username repo slug refs branches name
+    into Bitbucket itself using the Connect framework.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
   humanURL: https://bitbucket.org/
   baseURL: https://api.bitbucket.org//2.0
   tags: Branches
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/bitbucket/repositories-username-repo-slug-refs-branches-name-parameters.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/bitbucket/repositories-username-repo-slug-refs-branches-name-parameters-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/bitbucket/openapi.md
 x-common:
-- type: x-developer
-  url: https://developer.atlassian.com/cloud/bitbucket/
-- type: x-documentation
-  url: https://confluence.atlassian.com/bitbucket/bitbucket-cloud-documentation-221448814.html?_ga=2.77295890.629375793.1519179030-1077111323.1516485126
-- type: x-status
-  url: https://status.bitbucket.org/?_ga=2.76365714.629375793.1519179030-1077111323.1516485126
-- type: x-support
-  url: https://support.atlassian.com/bitbucket-cloud/
-- type: x-terms-of-service
-  url: https://www.atlassian.com/legal/customer-agreement?_ga=2.76365714.629375793.1519179030-1077111323.1516485126
-- type: x-twitter
-  url: https://twitter.com/bitbucket
-- type: x-website
-  url: https://bitbucket.org/
 - type: x-developer
   url: https://developer.atlassian.com/cloud/bitbucket/
 - type: x-documentation
