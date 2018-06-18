@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "70"
 tags: Branches
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/github/apis.md
 specificationVersion: "0.14"
 apis:
@@ -51,7 +51,7 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/github/openapi.md
 x-common:
-- type: x-net-library
+- type: x--net-library
   url: https://github.com/octokit/octokit.net
 - type: x-base
   url: https://api.github.com
