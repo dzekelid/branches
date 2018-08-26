@@ -7,71 +7,68 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitb
 x-kinRank: "8"
 x-alexaRank: "901"
 tags: Branches
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/bitbucket/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Bitbucket Get Repositories Username Repo Slug Refs Branches
-  x-api-slug: bitbucket
+- name: Bitbucket - Get Repositories Username Repo Slug Refs Branches
+  x-api-slug: repositoriesusernamerepo-slugrefsbranches-get
   description: Get repositories username repo slug refs branches
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/refs/branches
-  tags: Repositories, Username, Repo, Slug, Refs, Branches
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/bitbucket/repositoriesusernamerepo-slugrefsbranches-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/bitbucket/repositoriesusernamerepo-slugrefsbranches-get-openapi.md
-- name: Bitbucket Parameters Repositories Username Repo Slug Refs Branches
-  x-api-slug: bitbucket
+- name: Bitbucket - Parameters Repositories Username Repo Slug Refs Branches
+  x-api-slug: repositoriesusernamerepo-slugrefsbranches-parameters
   description: Parameters repositories username repo slug refs branches
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/refs/branches
-  tags: Repositories, Username, Repo, Slug, Refs, Branches
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/bitbucket/repositoriesusernamerepo-slugrefsbranches-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/bitbucket/repositoriesusernamerepo-slugrefsbranches-parameters-openapi.md
-- name: Bitbucket Get Repositories Username Repo Slug Refs Branches Name
-  x-api-slug: bitbucket
+- name: Bitbucket - Get Repositories Username Repo Slug Refs Branches Name
+  x-api-slug: repositoriesusernamerepo-slugrefsbranchesname-get
   description: Get repositories username repo slug refs branches name
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/refs/branches/{name}
-  tags: Repositories, Username, Repo, Slug, Refs, Branches, Name
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/bitbucket/repositoriesusernamerepo-slugrefsbranchesname-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/bitbucket/repositoriesusernamerepo-slugrefsbranchesname-get-openapi.md
-- name: Bitbucket Parameters Repositories Username Repo Slug Refs Branches Name
-  x-api-slug: bitbucket
+- name: Bitbucket - Parameters Repositories Username Repo Slug Refs Branches Name
+  x-api-slug: repositoriesusernamerepo-slugrefsbranchesname-parameters
   description: Parameters repositories username repo slug refs branches name
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/refs/branches/{name}
-  tags: Repositories, Username, Repo, Slug, Refs, Branches, Name
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/bitbucket/repositoriesusernamerepo-slugrefsbranchesname-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/bitbucket/repositoriesusernamerepo-slugrefsbranchesname-parameters-openapi.md
-- name: Bitbucket
-  x-api-slug: bitbucket
-  description: Collaborate on code with inline comments and pull requests. Manage
-    and share your Git repositories to build and ship software, as a team.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
-  humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0
-  tags: Branches
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/branches/master/_listings/bitbucket/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://bigoven.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://bitbucket.stack.network
 - type: x-crunchbase
   url: https://crunchbase.com/organization/bitbucket
 - type: x-developer

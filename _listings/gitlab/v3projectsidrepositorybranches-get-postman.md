@@ -1,24 +1,26 @@
 {
   "info": {
-    "name": "Capital One DevExchange Get branch by id",
-    "_postman_id": "9678d732-f096-4948-85f3-b3035fdb691b",
-    "description": "Returns the branch with the specific id",
+    "name": "GitLab Get Projects Repository Branches",
+    "_postman_id": "9a786186-6bab-427a-a75e-5575010bc2ef",
+    "description": "Get a project repository branches",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/"
   },
   "item": [
     {
-      "name": "banks",
+      "name": "Projects",
       "item": [
         {
-          "id": "1156759c-e772-4f7d-9653-386ad989de9b",
-          "name": "returns-the-branch-with-the-specific-id",
+          "id": "3d899896-ca12-4940-a8d5-e5949435978b",
+          "name": "getV3ProjectsIdRepositoryBranches",
           "request": {
             "url": {
               "protocol": "http",
-              "host": "api.reimaginebanking.com",
+              "host": "localhost",
               "path": [
-                "branches/:id"
+                "api",
+                "v3/projects/:id/repository/branches"
               ],
+              "port": "3000",
               "variable": [
                 {
                   "id": "id",
@@ -28,17 +30,24 @@
               ]
             },
             "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "*/*",
+                "disabled": false
+              }
+            ],
             "body": {
               "mode": "raw"
             },
-            "description": "Returns the branch with the specific id"
+            "description": "Get a project repository branches"
           },
           "response": [
             {
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "7c98339d-1632-44ec-9a0d-1b0b7c504ed0"
+              "id": "2a5f12f0-c494-47df-992c-7a5e92495749"
             }
           ]
         }

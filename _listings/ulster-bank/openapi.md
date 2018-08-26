@@ -31,5 +31,7 @@ paths:
         200:
           description: OK
       tags:
+      - Banks
+      - Banking
       - Branches
 ---

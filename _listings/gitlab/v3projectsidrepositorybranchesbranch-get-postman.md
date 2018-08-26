@@ -1,31 +1,26 @@
 {
   "info": {
-    "name": "Github Get Repos Owner Repo Branches Branch",
-    "_postman_id": "26869810-98af-4855-9c4b-51da80c7586a",
-    "description": "Get Branch",
+    "name": "GitLab Get Projects Repository Branches Branch",
+    "_postman_id": "01724fd6-c4e5-4b6b-8734-2439cfb98c28",
+    "description": "Get projects repository branches branch.",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/"
   },
   "item": [
     {
-      "name": "repos",
+      "name": "Projects",
       "item": [
         {
-          "id": "27c64334-396f-4631-8aa3-43e68f9261ce",
-          "name": "get-branch",
+          "id": "b5094b5b-1426-48b9-9b19-13bcba862c07",
+          "name": "getV3ProjectsIdRepositoryBranchesBranch",
           "request": {
             "url": {
               "protocol": "http",
-              "host": "api.github.com",
+              "host": "localhost",
               "path": [
-                "repos/:owner/:repo/branches/:branch"
+                "api",
+                "v3/projects/:id/repository/branches/:branch"
               ],
-              "query": [
-                {
-                  "key": "access_token",
-                  "value": "%7B%7D",
-                  "disabled": false
-                }
-              ],
+              "port": "3000",
               "variable": [
                 {
                   "id": "branch",
@@ -33,12 +28,7 @@
                   "type": "string"
                 },
                 {
-                  "id": "owner",
-                  "value": "{}",
-                  "type": "string"
-                },
-                {
-                  "id": "repo",
+                  "id": "id",
                   "value": "{}",
                   "type": "string"
                 }
@@ -48,22 +38,21 @@
             "header": [
               {
                 "key": "Accept",
-                "value": "{}",
-                "description": "Is used to set specified media type",
+                "value": "*/*",
                 "disabled": false
               }
             ],
             "body": {
               "mode": "raw"
             },
-            "description": "Get Branch"
+            "description": "Get projects repository branches branch."
           },
           "response": [
             {
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "88eb1b72-b039-4db6-a5dc-ad29b87fb542"
+              "id": "5bbb24d1-f9b9-4fbc-bebe-96b6d53ff240"
             }
           ]
         }
